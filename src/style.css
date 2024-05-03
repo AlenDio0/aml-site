@@ -1,0 +1,84 @@
+/* ! Base Style */
+
+body
+{
+	font-family: "comicsans", sans-serif;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, padding
+{
+	color: #000;
+	padding-bottom: 30px;
+}
+
+.big-text{font-size: 70pt;}
+.med-text{font-size: 40pt;}
+.norm-text{font-size: 20pt;}
+.small-text{font-size: 14pt;}
+
+.intro-text
+{
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.button
+{
+	padding: 18px 28px;
+	background: #316bff;
+	color: #fff;
+	display: inline-bloc;
+	border-radius: 4px;
+}
+
+/* ! Header */
+
+.header
+{
+	border: 3px solid blue;
+	background: #000;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 30px;
+	display: flex;
+}
+
+.logo
+{
+}
+
+.menu
+{
+	border: 1px solid red;
+	padding: 30px;
+}
+
+.menu li
+{
+	display: inline-block;
+}
+.menu li a
+{
+	color: #fff; padding: 30px;
+}
+
+.cta
+{
+}
+
+*,
+*:before
+*:after
+{
+	-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+			box-sizing: boreder-box;
+}
