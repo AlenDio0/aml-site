@@ -2,3 +2,4 @@
 
 ## Owners
 - AlenDio0
+- Freneee
